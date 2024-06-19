@@ -1,0 +1,40 @@
+.card{
+    width: 200px;
+    margin: 20px;
+    perspective: 1000px;
+
+}
+
+.face{
+    width: 200px;
+    height: 300px;
+    transition: 0.7s;
+    transform-style: preserve-3d;
+}
+
+.card.is-flipped .face{
+    transform: rotateY(-180deg);
+}
+
+.front,.back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    backface-visibility: hidden;
+    border: none;
+    border-radius: 15px;
+}
+
+.front{
+    background-color: #66B032;
+    transform: rotateY(0);
+    cursor: pointer;
+}
+
+.back{
+    background-color: #5A18C9;
+    transform: rotateY(180deg);
+    cursor: pointer;
+    color: white;
+}

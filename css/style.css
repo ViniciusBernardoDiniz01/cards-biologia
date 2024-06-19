@@ -1,0 +1,29 @@
+@import url("./cards.css");
+@import url("./header.css");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body{
+    background-color: #F0F7D4;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulo{
+    color: #092834;
+}
+
+.img{
+    position: relative;
+    top: 2px;
+}

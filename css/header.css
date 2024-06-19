@@ -1,0 +1,13 @@
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: #B2D732;
+    height: 50px;
+    margin: 20px;
+    color: black;
+    justify-content: space-around;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+
