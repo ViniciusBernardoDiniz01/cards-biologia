@@ -1,0 +1,17 @@
+footer{
+    background-color:#66B032 ;
+    color: #092834;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.nomes{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h6{
+    position: absolute;
+    right: 10px;
+}
