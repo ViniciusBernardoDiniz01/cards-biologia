@@ -24,6 +24,7 @@
     backface-visibility: hidden;
     border: none;
     border-radius: 15px;
+    font-size: 13px;
 }
 
 .front{
